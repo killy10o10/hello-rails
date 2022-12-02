@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :high_scores
   # root 'pages#hello'
   # GET /about
   get "about", to: "about#index"
